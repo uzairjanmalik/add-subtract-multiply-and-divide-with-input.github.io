@@ -28,7 +28,7 @@ body {
 }
 
 ::placeholder {
-    color: rgb(250, 3, 3);
+    color: rgb(252, 249, 249);
     font-size: 15px;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
@@ -42,7 +42,7 @@ button {
     background-color: gray;
     border: none;
     border-radius: 4px;
-    color: red;
+    color: rgb(251, 249, 249);
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
@@ -56,5 +56,13 @@ h1{
     font-style: normal;
     text-align: center;
     font-size: 15px;
+    color: rgb(251, 249, 249);
+}
+button:hover{
+    background-color: black;
+    color: red;
+}
+.search:hover{
+    background-color: black;
     color: red;
 }
